@@ -1,0 +1,12 @@
+<odoo>
+    <template id="payment_sale_legal_age_not" inherit_id="website_sale.payment_footer" name="Accept Legal Age">
+        <xpath expr="//div[@name='o_checkbox_container']" position="after">
+            <div name="o_la_checkbox_container" class="form-check mt-2 o_accept_la_button">
+                <input type="checkbox" id="checkbox_la" class="form-check-input" />
+                <label for="checkbox_la" class="form-check-label">
+                    ER DU OVER 18 ÅR?
+                </label>
+            </div>
+        </xpath>
+    </template>
+</odoo>
