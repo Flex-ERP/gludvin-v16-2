@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_override_product_attribute_check_override_product_attribute_check,override_product_attribute_check.override_product_attribute_check,model_override_product_attribute_check_override_product_attribute_check,base.group_user,1,1,1,1
